@@ -12,6 +12,7 @@
 		D0A5EE5E19ED359F0084E924 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A5EE5D19ED359F0084E924 /* Images.xcassets */; };
 		D0A5EE6119ED359F0084E924 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A5EE5F19ED359F0084E924 /* LaunchScreen.xib */; };
 		D0A5EE6D19ED359F0084E924 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A5EE6C19ED359F0084E924 /* HypnosisterTests.m */; };
+		D0A5EE7819ED36510084E924 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A5EE7719ED36510084E924 /* BNRHypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		D0A5EE6619ED359F0084E924 /* HypnosisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnosisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A5EE6B19ED359F0084E924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0A5EE6C19ED359F0084E924 /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
+		D0A5EE7619ED36510084E924 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		D0A5EE7719ED36510084E924 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		D0A5EE4A19ED359E0084E924 = {
 			isa = PBXGroup;
 			children = (
+				D0A5EE7619ED36510084E924 /* BNRHypnosisView.h */,
+				D0A5EE7719ED36510084E924 /* BNRHypnosisView.m */,
 				D0A5EE5519ED359F0084E924 /* Hypnosister */,
 				D0A5EE6919ED359F0084E924 /* HypnosisterTests */,
 				D0A5EE5419ED359F0084E924 /* Products */,
@@ -212,6 +217,7 @@
 			files = (
 				D0A5EE5C19ED359F0084E924 /* AppDelegate.m in Sources */,
 				D0A5EE5919ED359F0084E924 /* main.m in Sources */,
+				D0A5EE7819ED36510084E924 /* BNRHypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
